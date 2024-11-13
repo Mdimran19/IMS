@@ -1,0 +1,131 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+ /* // padding: 2rem; */
+  text-align: center;
+}
+.as{
+  background-color: cadetblue;
+  width: 200px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  /* position: fixed; */
+}
+/* App.module.css */
+/* .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex: 1 1 200px;
+  margin: 10px;
+} */
+@media (min-width: 470px){
+  .as {
+   background-color: rgb(33, 211, 217);
+   width: 100px;
+   height: 700px;
+   display: flex;
+   flex-direction: column;
+   text-decoration: none;
+   gap: 50px;
+  
+  }
+ }
+
+@media (min-width: 600px){
+  .as {
+   background-color: rgb(33, 211, 217);
+   width: 100px;
+   height: 700px;
+   display: flex;
+   flex-direction: column;
+   text-decoration: none;
+   gap: 50px;
+
+  }
+ }
+
+@media (min-width: 768px) {
+  .as {
+    background-color: cyan;
+    width: 150px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+ gap: 50px;
+;
+  }
+}
+
+@media (min-width: 1024px) {
+  .as {
+    background-color: cadetblue;
+    width: 200px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    column-gap: 20px;
+    gap: 50px;
+   
+  }
+}
+@media (min-width: 470px) {
+  .homeas{
+    margin-left: 105px;
+    margin-top: -700px;
+    width: auto;
+    height: 680px;
+    background-color: rgb(176, 200, 224);
+  }
+}
+@media (min-width:600px){
+  .homeas{
+    margin-left: 105px;
+    height: 680px;
+    margin-top: -700px;
+    width: auto;
+    background-color: rgb(176, 200, 224);
+  }
+}
+@media (min-width:768px) {
+  .homeas{
+    margin-left: 155px;
+    margin-top: -700px;
+    height: 680px;
+    background-color: rgb(176, 200, 224);
+  }
+}
+@media (min-width: 1024px){
+  .homeas{
+    margin-left: 205px;
+    margin-top: -700px;
+    height: -680px;
+    background-color: rgb(176, 200, 224);
+  }
+}
+
+  /* styles.css */
+.homeass {
+  margin-left: 205px;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 10px;
+  padding: 10px;
+ background-color: darkgrey;
+ border-right: 1px solid #ddd; /* কলামের মধ্যে লাইন */
+ border-bottom: 1px solid #ddd;
+  margin-top: -700px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  width: auto;
+  height: auto;
+  position: -webkit-sticky;
+}
+
+
